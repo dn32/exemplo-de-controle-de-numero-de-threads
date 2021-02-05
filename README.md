@@ -1,1 +1,0 @@
-# exemplo-de-controle-de-numero-de-threads
