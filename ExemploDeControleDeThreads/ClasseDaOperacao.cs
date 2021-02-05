@@ -16,7 +16,7 @@ namespace ExemploDeControleDeThreads
                 tasks.Add(task);
             }
 
-            await Task.WhenAny(tasks);
+            await Task.WhenAll(tasks);
         }
 
         private static async Task OperacaoAsync(int operacao)
